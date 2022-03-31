@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(to right, royalblue, rgba(65, 105, 225, 0.795));
+}
+
+input[type="text"] {
+    background: linear-gradient(to right, royalblue, rgba(145, 167, 231, 0.795))!important;
+    color: white!important;
+}
+
+::-webkit-input-placeholder {
+    color: white!important;
+}
+
+.card {
+    border-radius: 30px;
+    transition: transform 1s;
+}
+
+.card:hover {
+    transform: scale(1.1) ;
+    color: steelblue;
+}
+
+img {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.btn:hover {
+    background: lightgrey;
+}
